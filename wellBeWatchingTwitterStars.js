@@ -10,6 +10,11 @@
 // @grant        none
 // ==/UserScript==
 
+// Steps to configure Twitter Stars
+// - 1 - Install/Configure your browser to ignore CSP enforcement for twitter.com -> https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden
+// - 2 - Install Tampermonkey/Greasemonkey -> https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+// - 3 - Install this script
+
 function wellBeCountingSTARS(){
     pos = $('.HeartAnimation').css('background-position');
     $('.HeartAnimation').css({            
